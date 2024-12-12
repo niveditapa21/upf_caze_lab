@@ -165,7 +165,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: FOSSA scan
+      - name: FOSSA scan21
         uses: fossa-contrib/fossa-action@v3
         with:
           fossa-api-key: 0c3bbcdf20e157bbd487dae173751b28
