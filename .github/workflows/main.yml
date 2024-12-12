@@ -157,7 +157,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: reuse lint
+      - name: reuse lint21
         uses: fsfe/reuse-action@v5
 
   fossa-check:
